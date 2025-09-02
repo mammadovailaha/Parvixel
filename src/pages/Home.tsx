@@ -2,9 +2,10 @@ import React from 'react'
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold">Welcome to My Portfolio</h1>
-      <p className="mt-4">This is the home page content.</p>
+    <div className=' bg-gray-100 dark:bg-black'>
+         <div className="h-screen flex items-center justify-center bg-gray-100 dark:bg-black text-gray-900 dark:text-gray-100">
+        <h1 className="text-3xl font-bold"></h1>
+        </div>
     </div>
   )
 }
