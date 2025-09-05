@@ -23,8 +23,8 @@ const Navbar: React.FC = () => {
     navigate('/contact');
   };
   return (
-    <div className="w-full bg-white dark:bg-gray-900 p-4 overflow-hidden">
-      <div className="w-[95%] flex justify-between items-center">
+    <div className="w-full h-20 bg-white dark:bg-gray-900 px-4 py-2 overflow-x-hidden fixed top-0 left-0 z-50 shadow-md">
+      <div className="w-[95%] flex justify-between items-center overflow-x-hidden mx-auto">
         <div className='w-35 h-15'>
           <img
             src={dark ? logoWhite : logoBlack}
