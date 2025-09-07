@@ -1,4 +1,5 @@
 import "./App.css";
+import MouseFollowerDot from "./components/MouseFolloerDot";
 import { ThemeProvider } from "./components/ThemeContext";
 import Footer from "./layout/Footer";
 import Navbar from "./layout/Navbar";
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <AppRouter />
         <Footer />
+        <MouseFollowerDot />
       </ThemeProvider>
     </div>
   );
