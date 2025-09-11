@@ -26,15 +26,7 @@ const MouseFollowerDot: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen bg-gray-900 overflow-hidden">
-      {/* Ana container */}
-      <div className="flex items-center justify-center h-full">
-        <div className="text-white text-center">
-          <h1 className="text-4xl mb-4">Mouse Follower Animation</h1>
-          <p className="text-lg">Mouse-u hərəkət etdirin və nöqtənin necə izlədiyini görün!</p>
-        </div>
-      </div>
-
+    <div className="">
       {/* Animasiyalı nöqtə */}
       <div
         className="fixed w-4 h-4 bg-[#aeff00] rounded-full pointer-events-none z-50 shadow-lg"
