@@ -108,3 +108,11 @@
   font-weight: 900;
   font-style: italic;
 }
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Firefox */
+.scrollbar-hide {
+    scrollbar-width: none;
+}
